@@ -5,6 +5,7 @@ require('dotenv').config();
 const express=require('express');
 const cors=require('cors');
 const weatherData=require('./data/weather.json');
+const { application } = require('express');
 
 
 const server=express();
@@ -13,10 +14,12 @@ server.use(cors());
 const PORT=process.env.PORT;
 
 
-// http://localhost:3001/weather&lon=LONGITUDE&lat=LATITUDE
+// http://localhost:3001/weather
 server.get('/weather',(request,response)=>{
     let cityName=request.query.cityName;
-    
+    // const lat=request.query.lat;
+    // const lon=request.query.lat;
+
     let selectedData=weatherData.find(item=>{
         if(item.city_name.toLowerCase()===cityName.toLowerCase()){
             return item;
@@ -28,17 +31,20 @@ server.get('/weather',(request,response)=>{
         });
         response.status(200).send(weatherArray);
 
-    }catch{
-        response.status(500).send("somthing went wrong!");
+    }catch(error){
+        errorHandler(error,response);
     }
-    // let selectedData=weatherData.find(item=>{
-    //     if(item.city_name==="Seattle"){
-    //         return item;
-    //     }
-    // })
-    // response.send(selectedData.city_name);
-})
+});
 
+
+server.get("*",(req,res)=>{
+    res.status(404).send("Not found!")
+});
+
+function errorHandler(error,res){
+    res.status(500).send( {error :" somthing went wrong   "});
+
+}
 class Forecast{
     constructor(day){
         this.date=day.valid_date;
