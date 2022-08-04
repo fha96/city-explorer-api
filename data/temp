@@ -1,0 +1,251 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 478472,
+            "original_language": "ta",
+            "original_title": "Pottu Amman",
+            "overview": "A Tamil and Telugu bilingual devotional film.",
+            "popularity": 1.461,
+            "poster_path": "/pZfXVImuo4Iffo8Vv3dJBNQ7BJj.jpg",
+            "release_date": "2000-12-08",
+            "title": "Pottu Amman",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                28
+            ],
+            "id": 502273,
+            "original_language": "ta",
+            "original_title": "Padai Veetu Amman",
+            "overview": "A powerful man of a village kills a devotee on the eve of her wedding; he does this as his daughter is in love with the groom. He also seeks the help of an occult to acquire treasure until a neighboring deity comes to the rescue of this village.",
+            "popularity": 1.121,
+            "poster_path": null,
+            "release_date": "2002-11-04",
+            "title": "Padai Veetu Amman",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                28,
+                18,
+                10749
+            ],
+            "id": 78880,
+            "original_language": "ta",
+            "original_title": "Amman Koyil Kizhakkaley",
+            "overview": "Kanmani, a wealthy girl, decides to teach Chinnamani a lesson by pretending to be in love with him. Things, however, take an ugly turn when Chinnamani marries her in a fit of rage.",
+            "popularity": 0.9,
+            "poster_path": "/cvNyhndV2ALXgsmeF5JaDQ712UT.jpg",
+            "release_date": "1986-04-24",
+            "title": "Amman Kovil Kizhakale",
+            "video": false,
+            "vote_average": 5.3,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                14
+            ],
+            "id": 550364,
+            "original_language": "ta",
+            "original_title": "Rajakali Amman",
+            "overview": "A simple minded women named Meena her brother Gopal and their pet snake, lives will soon be changed when they look out for the village goddess who is forced out of her temple in a nearby village. They all flourish because of the blessings of the maa but these days are over when Meena weds an evil man named Seemadorai, who is not who he really says he is, and without the goddesses blessings.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2000-04-14",
+            "title": "Rajakali Amman",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 919660,
+            "original_language": "ta",
+            "original_title": "Sri Bannari Amman",
+            "overview": "Goddess Bannari Amman takes the form of a woman who is skilled in curing people's ailments and goes to a small village. She destroys evil and blesses the good part of the society.",
+            "popularity": 0.6,
+            "poster_path": "/6Y6BM73P3dd5Dl3Dl6jStlaPdWp.jpg",
+            "release_date": "2002-04-19",
+            "title": "Sri Bannari Amman",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xB4aqpv3hVnGE3TAGLf1OX04BBo.jpg",
+            "genre_ids": [
+                99,
+                36
+            ],
+            "id": 721858,
+            "original_language": "en",
+            "original_title": "Meenakshi Amman & the Marvel of Madurai",
+            "overview": "History TV18 invite you to celebrate the divine wedding of goddess Meenakshi Amman and lord Sundareshwar from your home. Watch 'Meenakshi Amman & The Marvel Of Madurai'.",
+            "popularity": 1.208,
+            "poster_path": "/m73nIsyraOleF4wiv99I538TnR5.jpg",
+            "release_date": "2020-05-04",
+            "title": "Meenakshi Amman & the Marvel of Madurai",
+            "video": false,
+            "vote_average": 9.5,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9aMGZUeZigIT7dXlRC1czntRLG.jpg",
+            "genre_ids": [
+                35,
+                14
+            ],
+            "id": 757545,
+            "original_language": "ta",
+            "original_title": "மூக்குத்தி அம்மன்",
+            "overview": "A TV reporter, who has been gathering evidence to expose a self-styled godman for years, gets help from Goddess Mookuthi Amman. How does he utilise the situation to bring down the godman before the public?",
+            "popularity": 2.83,
+            "poster_path": "/h8M7Z5cpmb0HJg4b4IGKBOU3JZV.jpg",
+            "release_date": "2020-11-14",
+            "title": "Mookuthi Amman",
+            "video": false,
+            "vote_average": 5.4,
+            "vote_count": 12
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                14
+            ],
+            "id": 476903,
+            "original_language": "ta",
+            "original_title": "பாளையத்து அம்மன்",
+            "overview": "A newly married couple give birth to a baby who is the reincarnation of goddess Devi; the goddess takes human form to battle evil.",
+            "popularity": 2.117,
+            "poster_path": "/wcdAB1Pb4uIHXPAwdeXG5jQKbwA.jpg",
+            "release_date": "2000-10-28",
+            "title": "Palayathu Amman",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/goBTeGaT42cVNjXRlRVQDnEmCvI.jpg",
+            "genre_ids": [
+                14,
+                18,
+                53,
+                10749
+            ],
+            "id": 1491,
+            "original_language": "en",
+            "original_title": "The Illusionist",
+            "overview": "With his eye on a lovely aristocrat, a gifted illusionist named Eisenheim uses his powers to win her away from her betrothed, a crown prince. But Eisenheim's scheme creates tumult within the monarchy and ignites the suspicion of a dogged inspector.",
+            "popularity": 22.452,
+            "poster_path": "/4I1oOPHNrHLcvz3wTMuETJLws9z.jpg",
+            "release_date": "2006-08-18",
+            "title": "The Illusionist",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 4129
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rbZwcuIfuUAI0oB3BLtaCew5C0I.jpg",
+            "genre_ids": [
+                10751,
+                18
+            ],
+            "id": 371075,
+            "original_language": "ta",
+            "original_title": "அம்மணி",
+            "overview": "Ammani is about a 82-year-old woman and her emotional bond with another woman named Salamma.",
+            "popularity": 0.848,
+            "poster_path": "/9CasTBjmKXrMYHnpRMaixIaA49U.jpg",
+            "release_date": "2016-10-14",
+            "title": "Ammani",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                27,
+                14
+            ],
+            "id": 281872,
+            "original_language": "te",
+            "original_title": "అమ్మోరు",
+            "overview": "Bhavani, a devotee of Goddess Amman, gets an evil godman arrested. However, when he returns with the intention of exacting revenge on her, she turns to the goddess for guidance.",
+            "popularity": 0.68,
+            "poster_path": "/2ltdksEzv3mlzT0m1aqXKVNQGGd.jpg",
+            "release_date": "1995-06-16",
+            "title": "Ammoru",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 279564,
+            "original_language": "te",
+            "original_title": "అవతారం",
+            "overview": "When Karkotakudu, a monster, attempts to destroy Earth to take control of the planet, Rajeshwari, a devotee of Goddess Akkamma, decides to fight the behemoth.",
+            "popularity": 1.495,
+            "poster_path": null,
+            "release_date": "2014-04-18",
+            "title": "Avatharam",
+            "video": false,
+            "vote_average": 2,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fUFFMNBu1Z5wk8P96yn66gGsGO5.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 598502,
+            "original_language": "en",
+            "original_title": "Gateways to New York: Othmar H. Ammann and his bridges",
+            "overview": "The story of the great Swiss engineer Othmar H. Ammann, who moves away in 1904 and redefines the rules of bridge construction in America - for decades and in a spectacular way. The beginning of motorisation, the post-war years, urbanisation and the consumer society: Ammann is not only in the middle of it, he is with his bridges a dynamic player, an agent of progress - and the belief in it.",
+            "popularity": 0.6,
+            "poster_path": "/lsuVrEhIEr9zCu07fhSYdU12s7E.jpg",
+            "release_date": "2019-04-04",
+            "title": "Gateways to New York: Othmar H. Ammann and his bridges",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 1,
+    "total_results": 13
+}

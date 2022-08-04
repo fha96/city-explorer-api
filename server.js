@@ -8,6 +8,7 @@ const cors=require('cors');
 const axios=require('axios');
 
 
+
 const server=express();
 server.use(cors());
 
@@ -41,6 +42,24 @@ server.get('/weather', async (request,response)=>{
     // console.log(selectedData);
 });
 
+
+// https://api.themoviedb.org/3/search/movie?api_key=140ed5bb0c130efde754d62530d0cc1e&query=amman
+server.get('/movies', async (request,response)=>{
+    let cityName=request.query.cityName;
+    const url=`https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&query=${cityName}`;
+    try {
+        const moviesData= await axios.get(url);
+        console.log(moviesData);
+        const arrayOfMoviesData=moviesData.data.results.map(item=>{
+            return new MovieApi(item);
+        });
+
+        response.status(200).send(arrayOfMoviesData);
+    } catch (error) {
+       errorHandler(error,response);
+    }
+
+})
 
 
 
@@ -90,7 +109,19 @@ class WeatherApi{
         this.decription=data.region;
     }
 }
-
+class MovieApi{
+    constructor(movie){
+        
+            this.title=movie.title;
+            this.overview = movie.overview;
+            this.average_votes=movie.vote_average;
+            this.total_votes=movie.vote_count;
+            this.image_url=movie.poster_path;
+            this.popularity=movie.popularity;
+            this.released_on=movie.release_date;
+        
+    }
+}
 
 //Here we make our server listen to receive requests when we start it.
 server.listen(PORT,()=>{
